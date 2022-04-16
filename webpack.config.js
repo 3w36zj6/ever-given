@@ -4,14 +4,14 @@ module.exports = {
         bundle: './src/app.ts'
     },
     output: {
-        path: path.join(__dirname, 'docs'),
+        path: path.join(__dirname, 'public'),
         filename: '[name].js'
     },
     resolve: {
         extensions: ['.ts', '.js']
     },
     devServer: {
-        contentBase: path.join(__dirname, 'docs')
+        contentBase: path.join(__dirname, 'public')
     },
     module: {
         rules: [{
