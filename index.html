@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+    <meta charset="utf-8">
+    <title>どこでもEver Given</title>
+</head>
+
+<body>
+    <h1>どこでもEver Given</h1>
+    <p>左クリックでEver Givenを設置することができます。</p>
+    <button type="button" id="delete_all">全て消す</button>
+    <button type="button" id="delete">消す</button>
+    <p>
+        角度(degree):
+        <div id="display_deg">0</div>
+        <input type="range" id="deg" min="0" max="360" value="0" style="width: 800px">
+        <br>
+        <img id="display_ever_given" style="width: 100px;height: 100px" src="./img/ever_given.png" /><br>
+    </p>
+    <div id="map" style="width: 800px; height: 600px;"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <script src="bundle.js"></script>
+    <p>
+        <a href="https://github.com/3w36zj6/ever-given">GitHub Repository</a>
+    </p>
+</body>
+
+</html>
